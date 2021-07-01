@@ -69,23 +69,42 @@ button{
     background-color: #0161ff;
     border: none;
     color: white;
-    padding: 10px 15px;
+    padding: 10px 20px;
 }
 
 /* Main - Hero*/
 .container{
     background-color: #b4d0e7;
-    height: 600px;
+    font-weight: 600;
 }
 .hero{
-    max-width: 75%;
+    max-width: 80%;
     margin: auto;
+    padding-bottom: 70px;
 }
 h1{
-    font-size: 60px;
-    padding-top: 60px;
+    font-size: 65px;
+    padding-top: 70px;
 }
 .hero-text-left{
-    max-width: 40%;
+    max-width: 30%;
     margin-top: 40px;
+    font-size: 13px;
+}
+.btn-hero{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.annullamento{
+    margin-top: 10px;
+    font-size: 12px;
+}
+i{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.hero img:last-child{
+    width: 730px;
+    float: right;
+    margin-top: -250px;
 }
