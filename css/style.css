@@ -38,7 +38,6 @@ nav li{
 nav li a{
     text-decoration: none;
     color: black;
-    display: inline-block;
     font-size: 14px;
     font-weight: 600;
 }
@@ -50,12 +49,20 @@ nav li a{
 }
 
 
-
+/* Row right */
 .row-right{
     display: inline-block;
     float: right;
-    background-color: blue;
     height: 70px;
-    width: 50%;
+    /* width: 50%; */
 }
-
+.text-right{
+    text-align: right;
+}
+.btn{
+    background-color: #0161ff;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    float: right;
+}
