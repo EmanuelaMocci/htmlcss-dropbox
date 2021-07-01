@@ -54,15 +54,20 @@ nav li a{
     display: inline-block;
     float: right;
     height: 70px;
-    /* width: 50%; */
+    width: 50%;
 }
 .text-right{
     text-align: right;
 }
 .btn{
+    float: right;
+    padding: 0 20px;
+    display: inline-block;
+    line-height: 70px;
+}
+button{
     background-color: #0161ff;
     border: none;
     color: white;
     padding: 10px 15px;
-    float: right;
 }
