@@ -4,3 +4,58 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Common */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+/* Header */
+.header{
+    height: 70px;
+    width: 100%;
+    display: inline-block;
+    position: fixed;
+}
+
+/* Row-left */
+.row-left{
+    display: inline-block;
+    float: left;
+    height: 70px;
+    width: 50%;
+}
+nav li{
+    display: inline-block;
+    padding: 0 25px;
+    line-height: 70px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+}
+/* Logo da centrare meglio */
+.logo{
+    padding: 20px 20px;
+    vertical-align: middle;
+    float: left;
+}
+
+
+
+.row-right{
+    display: inline-block;
+    float: right;
+    background-color: blue;
+    height: 70px;
+    width: 50%;
+}
+
