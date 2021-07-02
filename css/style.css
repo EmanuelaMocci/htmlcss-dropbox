@@ -114,7 +114,7 @@ h1{
     max-width: 70%;
     margin: auto;
 }
-h2{
+.business h2{
     padding-top: 200px;
     padding-bottom: 50px;
     font-size: 38px;
@@ -237,4 +237,39 @@ label{
     color: black;
     border: 1px solid black;
     font-size: 15px;
+}
+
+/* Dropbox business */
+.dropbox-operazioni{
+    max-width: 70%;
+    margin: auto;
+}
+.operazioni-sinistra img, .operazioni-destra img, .operazioni-centro img{
+    width: 100%;
+}
+.dropbox-operazioni h2{
+    font-size: 38px;
+    padding: 40px 0;
+}
+.operazioni-sinistra{
+    width: calc(100% / 3 - 40px);
+    float: left;
+}
+.operazioni-centro{
+    width: calc(100% / 3 - 40px);
+    margin-left: 60px;
+    margin-right: 60px;
+    float: left;
+}
+.operazioni-destra{
+    width: calc(100% / 3 - 40px);
+    float: left;
+}
+.dropbox-operazioni h3{
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.dropbox-operazioni p{
+    font-size: 14px;
+    padding-bottom: 100px;
 }
