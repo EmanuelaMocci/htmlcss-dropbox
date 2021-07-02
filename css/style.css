@@ -42,7 +42,6 @@ nav li a{
     color: black;
     font-size: 14px;
 }
-/* Logo da centrare meglio */
 .logo{
     padding: 20px 20px;
     vertical-align: middle;
@@ -179,7 +178,7 @@ label{
 .link-acquisto{
     padding-bottom: 20px;
 }
-.testo-rows a{
+.testo-rows a, .team a{
     color: #337bff;
 }
 .testo-rows hr{
@@ -240,14 +239,14 @@ label{
 }
 
 /* Dropbox business */
-.dropbox-operazioni{
+.dropbox-operazioni, .team{
     max-width: 70%;
     margin: auto;
 }
 .operazioni-sinistra img, .operazioni-destra img, .operazioni-centro img{
     width: 100%;
 }
-.dropbox-operazioni h2{
+.dropbox-operazioni h2, .team h2{
     font-size: 38px;
     padding: 40px 0;
 }
@@ -271,5 +270,5 @@ label{
 }
 .dropbox-operazioni p{
     font-size: 14px;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
