@@ -8,6 +8,7 @@
 /* Common */
 body{
     font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 .clearfix::after{
     display: table;
@@ -40,7 +41,6 @@ nav li a{
     text-decoration: none;
     color: black;
     font-size: 14px;
-    font-weight: 600;
 }
 /* Logo da centrare meglio */
 .logo{
@@ -161,11 +161,19 @@ h3{
 }
 .prezzo{
     font-size: 14px;
-    padding-bottom: 10px;
+    padding-bottom: 7px;
 }
 .mese{
     color: #71818d;
     font-size: 13px;
     font-weight: 600;
+    padding-bottom: 30px;
 }
-
+.testo-rows ul li{
+    font-size: 13px;
+    list-style: none;
+    padding-bottom: 20px;
+}
+.testo-rows ul li i{
+    font-size: 13px;
+}
