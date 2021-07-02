@@ -142,7 +142,7 @@ label{
     border: 1px solid lightgrey;
     float: left;
 }
-.testo-rows{
+.testo-rows, .row-ufficio-vendite{
    padding: 30px 25px;
    font-size: 13px;
 }
@@ -151,8 +151,8 @@ label{
     border-bottom: 1px solid lightgrey;
     padding: 10px;
 }
-/* Dettagli row left*/
-h3{
+/* Dettagli rows*/
+.testo-rows h3{
     font-size: 23px;
     padding-bottom: 10px;
 }
@@ -187,11 +187,28 @@ h3{
     border: 1px solid lightgray;
     width: 45px;
 }
-.testo-rows h4{
+.testo-rows h4, .row-ufficio-vendite h4{
     font-size: 15px;
     padding: 30px 0;
 }
 .fa-check{
     color: #0664ff;
 }
-/* Dettagli row */
+/* Ufficio vendite prezzi */
+.titolo-vendite-prezzi{
+    border: 1px solid lightgrey;
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+}
+.row-ufficio-vendite{
+    border: 1px solid lightgrey;
+}
+.row-ufficio-vendite h3{
+    display: inline-block;
+    font-size: 23px;
+}
+.btn-ufficio-vendite{
+    padding: 10px 60px;
+    float: right;
+}
