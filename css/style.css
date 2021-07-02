@@ -151,7 +151,7 @@ label{
     border-bottom: 1px solid lightgrey;
     padding: 10px;
 }
-/* Dettagli rows */
+/* Dettagli row left*/
 h3{
     font-size: 23px;
     padding-bottom: 10px;
@@ -194,3 +194,4 @@ h3{
 .fa-check{
     color: #0664ff;
 }
+/* Dettagli row center */
