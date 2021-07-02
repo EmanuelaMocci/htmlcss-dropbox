@@ -130,15 +130,15 @@ label{
 }
 .row-left-business, .row-right-business{
     width: calc(100% / 3 - 40px);
-    height: 900px;
+    height: 950px;
     border: 1px solid lightgrey;
     float: left;
 }
 .row-center-business{
-    height: 900px;
+    height: 950px;
     width: calc(100% / 3 - 40px);
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
     border: 1px solid lightgrey;
     float: left;
 }
