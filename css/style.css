@@ -130,20 +130,21 @@ label{
 }
 .row-left-business, .row-right-business{
     width: 30%;
-    height: 600px;
+    height: 900px;
     border: 1px solid lightgrey;
     float: left;
 }
 .row-center-business{
+    height: 900px;
     width: 30%;
-    height: 600px;
     margin-left: 5%;
     margin-right: 5%;
     border: 1px solid lightgrey;
     float: left;
 }
 .testo-rows{
-   padding: 25px 20px;
+   padding: 30px 25px;
+   font-size: 13px;
 }
 .titolo-rows{
     text-align: center;
@@ -165,15 +166,31 @@ h3{
 }
 .mese{
     color: #71818d;
-    font-size: 13px;
     font-weight: 600;
     padding-bottom: 30px;
 }
 .testo-rows ul li{
-    font-size: 13px;
     list-style: none;
     padding-bottom: 20px;
 }
-.testo-rows ul li i{
-    font-size: 13px;
+.testo-rows button{
+    width: 100%;
+    margin: 30px 0;
+}
+.link-acquisto{
+    padding-bottom: 20px;
+}
+.testo-rows a{
+    color: #337bff;
+}
+.testo-rows hr{
+    border: 1px solid lightgray;
+    width: 45px;
+}
+.testo-rows h4{
+    font-size: 15px;
+    padding: 30px 0;
+}
+.fa-check{
+    color: #0664ff;
 }
