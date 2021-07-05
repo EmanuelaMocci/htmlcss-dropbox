@@ -370,7 +370,7 @@ label{
     font-size: 38px;
     color: #62082b;
 }
-.contenuto-sezione-azienda{
+.contenuto-sezione-azienda, .faq{
     max-width: 70%;
     margin: auto;
 }
@@ -390,4 +390,26 @@ label{
     font-size: 15px;
     padding: 10px 40px;
     float: right;
+}
+
+/* Domande frequenti */
+.faq>h3{
+    font-size: 25px;
+    margin-top: 100px;
+    padding-bottom: 30px;
+}
+.faq li{
+    font-weight: 700;
+    font-size: 15px;
+    border-top: 1px solid lightgray;
+    padding: 30px 0;
+    list-style: none;
+}
+.faq li i{
+    float: right;
+    padding-right: 30px;
+}
+#border-bottom{
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 100px;
 }
