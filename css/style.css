@@ -278,19 +278,17 @@ label{
     max-width: 100%;
 }
 
-/* MISURE DA MODIFICARE IN PX */
-
 /* Contenuto brands sinistra */
 .contenuto-brands-sinistra{
-    width: 400px;
+    width: 30%;
     float: left;
 }
 .designit, .asu, .uf, .topps{
     float: left;
-    width: 200px;
-    height: 200px;
+    width: 50%;
+    height: 50%;
     position: relative;
-    padding-bottom: 200px;
+    padding-bottom: 50%;
 }
 .designit{
     background-color: #a2d49b;
@@ -313,12 +311,14 @@ label{
 }
 
 /* Contenuto brands centrale */
+
+/* AGGIUSTARE L'ALTEZZA IN PX */
 .contenuto-brands-centrale{
     background-color: #f5f5f5;
-    height: 400px;
     float: left;
-    width: 633px;
+    width: 40%;
     padding: 40px;
+    height: 430px;
 }
 .descrizione-contenuto-brands-centrale>img{
   width: 150px;
@@ -335,15 +335,15 @@ label{
 
 /* Contenuto brands destra */
 .contenuto-brands-destra{
-    width: 400px;
+    width: 30%;
     float: left;
 }
 .world, .hearst, .lonely, .clear{
     float: left;
-    width: 200px;
-    height: 200px;
+    width: 50%;
+    height: 50%;
     position: relative;
-    padding-bottom: 200px;
+    padding-bottom: 50%;
 }
 .world{
     background-color: #d50d20;
