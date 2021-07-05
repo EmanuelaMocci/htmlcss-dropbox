@@ -434,6 +434,10 @@ footer{
     font-weight: 400;
     margin-bottom: 10px;
 }
+.footer-top li a{
+    text-decoration: none;
+    color: white;
+}
 .dropbox, .prodotti, .azienda, .supporto, .community{
     float: left;
     margin-right: 110px;
