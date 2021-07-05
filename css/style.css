@@ -289,6 +289,8 @@ label{
     float: left;
     width: 200px;
     height: 200px;
+    position: relative;
+    padding-bottom: 200px;
 }
 .designit{
     background-color: #a2d49b;
@@ -301,6 +303,13 @@ label{
 }
 .topps{
     background-color: #ff1c1d;
+}
+.contenuto-brands-sinistra img, .contenuto-brands-destra img{
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* Contenuto brands centrale */
@@ -333,6 +342,8 @@ label{
     float: left;
     width: 200px;
     height: 200px;
+    position: relative;
+    padding-bottom: 200px;
 }
 .world{
     background-color: #d50d20;
