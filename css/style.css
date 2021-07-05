@@ -373,14 +373,17 @@ label{
 .contenuto-sezione-azienda{
     max-width: 70%;
     margin: auto;
+}
+.centratura-verticale{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
 .contenuto-sezione-azienda h2{
-    width: 50%;
+    max-width: 50%;
     float: left;
 }
+/* BUTTON DA CENTRARE LATO DESTRO */
 .btn-azienda{
     background-color: white;
     color: black;
