@@ -413,3 +413,28 @@ label{
     border-bottom: 1px solid lightgray;
     margin-bottom: 100px;
 }
+
+/* Footer top */
+footer{
+    background-color: black;
+    width: 100%;
+}
+.footer-top{
+    max-width: 80%;
+    margin: auto;
+    color: white;
+    padding: 100px 0;
+}
+.footer-top h3{
+    padding-bottom: 18px;
+}
+.footer-top li{
+    list-style: none;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.dropbox, .prodotti, .azienda, .supporto, .community{
+    float: left;
+    margin-right: 110px;
+}
