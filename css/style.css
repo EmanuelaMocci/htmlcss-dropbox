@@ -23,6 +23,7 @@ body{
     display: inline-block;
     position: fixed;
     background-color: white;
+    z-index: 99;
 }
 
 /* Row-left */
@@ -277,6 +278,7 @@ label{
 .contenitore-brands{
     max-width: 100%;
     margin-top: 50px;
+    height: auto;
 }
 
 /* Contenuto brands sinistra */
@@ -360,6 +362,29 @@ label{
 /* Dropbox nella tua azienda */
 .sezione-azienda{
     width: 100%;
-    height: 400px;
-    background-color: red;
+    height: 250px;
+    background-color: #b4d0e7;
+    position: relative;
+}
+.sezione-azienda h2{
+    font-size: 38px;
+    color: #62082b;
+}
+.contenuto-sezione-azienda{
+    max-width: 70%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.contenuto-sezione-azienda h2{
+    width: 50%;
+    float: left;
+}
+.btn-azienda{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 10px 40px;
+    float: right;
 }
