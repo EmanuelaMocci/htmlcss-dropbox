@@ -128,16 +128,16 @@ label{
     margin-top: 30px;
 }
 .row-left-business, .row-right-business{
-    width: calc(100% / 3 - 40px);
+    width: calc(100% / 3 - 30px);
     min-height: 950px;
     border: 1px solid lightgrey;
     float: left;
 }
 .row-center-business{
     min-height: 950px;
-    width: calc(100% / 3 - 40px);
-    margin-left: 60px;
-    margin-right: 60px;
+    width: calc(100% / 3 - 30px);
+    margin-left: 45px;
+    margin-right: 45px;
     border: 1px solid lightgrey;
     float: left;
 }
@@ -171,6 +171,9 @@ label{
 .testo-rows ul li{
     list-style: none;
     padding-bottom: 20px;
+    margin-left: 8px;
+    text-indent: -8px;
+    padding: 10px;
 }
 .testo-rows button{
     width: 100%;
