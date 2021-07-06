@@ -199,6 +199,7 @@ label{
 /* Ufficio vendite prezzi */
 .titolo-vendite-prezzi{
     border: 1px solid lightgrey;
+    border-bottom: none;
     margin-top: 40px;
     padding: 10px;
     text-align: center;
