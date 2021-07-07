@@ -15,6 +15,10 @@ body{
     content: "";
     clear: both;
 }
+button:hover{
+    background-color: #555555;
+}
+
 
 /* Header */
 .contenitore-header{
